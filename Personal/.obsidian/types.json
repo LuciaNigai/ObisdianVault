@@ -4,6 +4,8 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "finished": "date",
-    "reading jorney": "multitext"
+    "reading jorney": "multitext",
+    "rating": "text",
+    "Order": "number"
   }
 }

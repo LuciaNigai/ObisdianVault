@@ -1,7 +1,7 @@
 
 ```dataview
 TABLE  WITHOUT ID
-("<img src='" + cover + "' width='80px'/>") as "Image",
+("<img src='" + cover + "' width='80px'/>") as "Cover",
 file.link AS "Title",
 author AS "Author",
 series AS "Series",
@@ -10,8 +10,11 @@ finished AS "Finished",
 rating AS "Rating"
 FROM "Books"
 WHERE series
-SORT series ASC, order ASC
+SORT series ASC, number(order) ASC
 ```
+
+
+
 
 
 
